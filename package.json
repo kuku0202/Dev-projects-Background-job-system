@@ -1,0 +1,15 @@
+{
+  "name": "background-job-system",
+  "version": "1.0.0",
+  "description": "A dummy background job system: durable queue, concurrent workers, retries, and scheduled jobs.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "demo": "node demo.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT"
+}
